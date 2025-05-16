@@ -21,3 +21,18 @@ Great for:
 
 ```bash
 ./install.sh
+```
+
+## 🧑‍💻 Run
+
+### On macOS:
+
+```bash
+cd dir/of/choice
+whatwasidoing
+```
+or
+```bash
+cd dir/of/choice
+wtfisthis
+```
