@@ -1,3 +1,5 @@
+![CI](https://github.com/bunchoftrees/whatwasidoing/actions/workflows/ci.yml/badge.svg)
+
 # 🧠 whatwasidoing
 
 A tiny CLI to remind you what the hell you were doing last time you touched a project.
