@@ -23,3 +23,10 @@ else
   echo "Unsupported OS: $OSTYPE"
   exit 1
 fi
+# Add alias to ~/.zshrc if not present
+if ! grep -q "alias wtfisthis=" ~/.zshrc 2>/dev/null; then
+  echo 'alias wtfisthis="whatwasidoing"' >> ~/.zshrc
+  echo '✅ Added alias: wtfisthis -> whatwasidoing (you may need to restart your shell)'
+else
+  echo 'ℹ️ Alias "wtfisthis" already exists in ~/.zshrc'
+fi
